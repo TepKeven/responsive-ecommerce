@@ -154,4 +154,9 @@
         width: 30vw;
         padding-top: 6vw;
     }
+
+    .top-banner {
+        padding-top: 15vw;
+        padding-bottom: 100px;
+    }
 }
