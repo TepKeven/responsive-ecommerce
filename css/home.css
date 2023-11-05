@@ -63,7 +63,7 @@
 
 .top-banner {
     padding-top: 150px;
-    padding-bottom: 150px;
+    padding-bottom: 180px;
 }
 
 .banner-title {
@@ -140,6 +140,10 @@
     .top-banner {
         padding-top: 100px;
         padding-bottom: 100px;
+    }
+
+    .banner-title{
+        font-size: 5vw;
     }
 }
 
