@@ -169,6 +169,13 @@
     }
 }
 
+@media (max-width: 768px){
+    
+    .navbar-top li a{
+        font-size: 3vw;
+    }
+}
+
 * {
     font-family: Arial, Helvetica, sans-serif;
 }
