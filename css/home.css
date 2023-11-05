@@ -142,3 +142,16 @@
         padding-bottom: 100px;
     }
 }
+
+@media (max-width: 575px){
+
+    .btn-buynow a {
+        font-size: 3vw;
+        padding: 2.5vw 0;
+    }
+
+    .btn-buynow{
+        width: 30vw;
+        padding-top: 6vw;
+    }
+}
