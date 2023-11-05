@@ -1,0 +1,169 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart Order</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/cart.css" />
+    <link rel="stylesheet" href="../css/base.css" />
+    <script src="https://kit.fontawesome.com/c2f24180cc.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="../js/cart.js"></script>
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="navbar-container">
+        <ul type="none" class="navbar-top">
+            <li><a href="./bestseller.html">Best Sellers</a></li>
+            <li><a href="./recent.html">Recent</a></li>
+            <li><a href="./featured.html">Featured</a></li>
+            <li><a href="./about.html">About Us</a></li>
+            <li><a href="./contact.html">Contact Us</a></li>
+        </ul>
+        <div class="breadcrumb d-flex flex-column align-items-center justify-content-center">
+            <h2>Cart</h2>
+            <div class="breadcrumb-text">
+                <a href="./home.html">Home</a>
+                &nbsp; >
+                <a href="./cart.html">Cart</a>
+            </div>
+        </div>
+    </nav>
+    <div class="cart-container px-5 py-4">
+        <h3 class="fw-bold">Your Cart</h3>
+        <table border="1" class="cart-table w-100 mt-4">
+            <tr>
+                <th>Product Image</th>
+                <th>Product Name</th>
+                <th>Product Quantity</th>
+                <th>Unit Price</th>
+                <th>Items Price</th>
+            </tr>
+            <tr>
+                <td>
+                    <img src="../img/products/earrings.png" class="product-image"/>
+                </td>
+                <td class="product-name">
+                    Earrings
+                </td>
+                <td class="product-quantity">
+                    <input type="text" class="input-quantity" value="1"/>
+                    <!-- <button class="btn-reset btn btn-orange"><i class="fa fa-undo" aria-hidden="true"></i></button> -->
+                    <button class="btn-delete btn btn-orange px-2"><i class="fa fa-trash" aria-hidden="true"></i></button>
+                </td>
+                <td class="unit-price">
+                    $150
+                </td>
+                <td class="total-price">
+                    $150
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="../img/products/bracelet.png" class="product-image"/>
+                </td>
+                <td class="product-name">
+                    Bracelet
+                </td>
+                <td class="product-quantity">
+                    <input type="text" class="input-quantity" value="2" />
+                    <!-- <button class="btn-reset btn btn-orange"><i class="fa fa-undo" aria-hidden="true"></i></button> -->
+                    <button class="btn-delete btn btn-orange px-2"><i class="fa fa-trash" aria-hidden="true"></i></button>
+                </td>
+                <td class="unit-price">
+                    $230
+                </td>
+                <td class="total-price">
+                    $460
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="../img/products/laptop.png" class="product-image" />
+                </td>
+                <td class="product-name">
+                    Laptop
+                </td>
+                <td class="product-quantity">
+                    <input type="text" class="input-quantity" value="1" />
+                    <!-- <button class="btn-reset btn btn-orange"><i class="fa fa-undo" aria-hidden="true"></i></button> -->
+                    <button class="btn-delete btn btn-orange px-2"><i class="fa fa-trash" aria-hidden="true"></i></button>
+                </td>
+                <td class="unit-price">
+                    $500
+                </td>
+                <td class="total-price">
+                    $500
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="../img/products/lamp.jpg" class="product-image" />
+                </td>
+                <td class="product-name">
+                    Lamp
+                </td>
+                <td class="product-quantity">
+                    <input type="text" class="input-quantity" value="1" />
+                    <!-- <button class="btn-reset btn btn-orange"><i class="fa fa-undo" aria-hidden="true"></i></button> -->
+                    <button class="btn-delete btn btn-orange px-2"><i class="fa fa-trash" aria-hidden="true"></i></button>
+                </td>
+                <td class="unit-price">
+                    $55
+                </td>
+                <td class="total-price">
+                    $55
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="../img/products/shirt.png" class="product-image" />
+                </td>
+                <td class="product-name">
+                    Shirt
+                </td>
+                <td class="product-quantity">
+                    <input type="text" class="input-quantity" value="3" />
+                    <!-- <button class="btn-reset btn btn-orange"><i class="fa fa-undo" aria-hidden="true"></i></button> -->
+                    <button class="btn-delete btn btn-orange px-2"><i class="fa fa-trash" aria-hidden="true"></i></button>
+                </td>
+                <td class="unit-price">
+                    $40
+                </td>
+                <td class="total-price">
+                    $120
+                </td>
+            </tr>
+        </table>
+        <div class="d-flex justify-content-between mt-4">
+            <a href="./home.html"><button class="btn btn-orange">Back to Home</button></a>
+            <a href="./checkout.html"><button class="btn btn-orange">Checkout</button></a>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <div class="footer-section d-flex justify-content-center mt-5">
+        <div class="col-lg-6 col-11 text-center pt-5 pb-2">
+            <h2 class="fw-bold">Keven Shop</h2>
+            <div class="section-subscribe d-flex align-items-center justify-content-between">
+                <input type="email" name="txt_subscribe" placeholder="Your Email" />
+                <a href="#">SUBSCRIBE</a>
+            </div>
+            <ul class="footer-menu d-flex justify-content-between px-4 mt-4">
+                <li><a href="./blog.html">Blog</a></li>
+                <li><a href="./category.html">Category</a></li>
+                <li><a href="./checkout.html">Checkout</a></li>
+                <li><a href="./login.html">Login</a></li>
+                <li><a href="./sitemap.html">Sitemap</a></li>
+            </ul>
+            <p class="my-5">Help Line Number : +855 12330245</p>
+            <p>© 2022 All Rights Reserved. Design by Tep Keven</p>
+        </div>
+    </div>
+</body>
+</html>

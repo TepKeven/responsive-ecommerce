@@ -1,0 +1,13 @@
+#carouselGallery .carousel-item img {
+    filter: brightness(90%);
+}
+
+.carousel-indicators .img-indicator[data-bs-target] {
+    text-indent: 0;
+    height: auto;
+    width: 50px;
+}
+
+.carousel-indicators.custom-indicators {
+    position: static;
+}

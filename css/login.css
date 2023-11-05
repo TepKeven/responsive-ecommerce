@@ -1,0 +1,56 @@
+.account-action {
+    width: 85%;
+    text-align: center;
+    border: solid 1px gray;
+}
+
+.action-content {
+    margin: 30px 0px;
+}
+
+.action-content a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    margin-top: 25px;
+}
+
+.account-action a:hover{
+    color:orange;
+}
+
+.section-title {
+    background-color: orange;
+    padding: 10px 0px;
+    font-weight: bold;
+    color: white;
+}
+
+.new-customer-action {
+    border: solid 1px gray;
+    padding: 20px 30px;
+    width: 85%;
+}
+
+.new-customer-action h6 {
+    font-weight: bold;
+}
+
+.login-action {
+    border: solid 1px gray;
+    padding: 20px 20px;
+    width: 90%;
+}
+
+.login-action h6 {
+    font-weight: bold;
+}
+
+@media (max-width: 991px) {
+    .account-action,
+    .new-customer-action,
+    .login-action{
+        margin-top:20px;
+        width: 100%;
+    }
+}

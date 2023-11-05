@@ -1,0 +1,39 @@
+/* Full Size Blogs */
+
+.blog-item:not(:first-child) {
+    margin-top: 50px;
+}
+
+.blog-item img:first-child {
+    filter: saturate(2);
+}
+
+.blog-content .blog-info, .blog-mini-item .blog-mini-info {
+    margin-right: 17px;
+}
+
+.blog-content .blog-info:first-child {
+    color: orange;
+}
+
+.blog-content .blog-info i, .blog-mini-item .blog-mini-info i {
+    color: orange;
+}
+
+.blog-content .blog-info h6, .blog-mini-item .blog-mini-info h6 {
+    margin-left: 10px;
+}
+
+/* Mini Side Blogs */
+
+.blog-mini-item{
+    color:black;
+    text-decoration: none;
+    cursor: pointer;
+    display: block;
+    margin-top: 30px;
+}
+
+.blog-mini-item .blog-mini-content p{
+    margin-left: 13px;
+}

@@ -1,0 +1,174 @@
+.footer-section{
+    background-color: #2b2a29;
+}
+
+.footer-section input, .footer-section h2, .footer-section a, .footer-section p{
+    color:white;
+}
+
+.footer-menu a{
+    text-decoration: none;
+}
+
+.section-subscribe{
+    border-bottom: solid 1px white;
+}
+
+.section-subscribe input {
+    height: 60px;
+    width: 80%;
+    outline: none;
+    border: none;
+    background: transparent;
+}
+
+.section-subscribe input::placeholder{
+    color:white;
+}
+
+.section-subscribe a{
+    color: orangered;
+    text-decoration: none;
+}
+
+.navbar-top {
+    width: 100%;
+    background-color: #2b2a29;
+    clip-path: polygon(0 0, 100% 0, 96% 100%, 3% 100%);
+    height: auto;
+    padding: 15px 0px 15px 0px;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.navbar-top a {
+    font-size: 16px;
+    color: #f1f1f1;
+    margin: 6px 10px 0px 15px;
+    text-decoration: none;
+}
+
+.category-title {
+    margin-bottom: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.product-box {
+    border: solid 1px rgb(228, 226, 226);
+    box-shadow: 0px 0px 10px 5px rgb(241, 238, 238);
+    padding: 15px;
+}
+
+.product-box h5 {
+    font-weight: bold;
+}
+
+.product-box h6 {
+    color: #f26522;
+}
+
+.product-box img {
+    max-width: 100%;
+    height: auto;
+}
+
+.btn-main a {
+    text-decoration: none;
+}
+
+/* .btn-main .btn-seemore a {
+    color: black;
+} */
+
+.btn-main .btn-buy a {
+    color: #f26522;
+    font-weight: bold;
+}
+
+/* BreadCrumb */
+
+.breadcrumb {
+    height: 220px;
+    clip-path: polygon(3% 0, 96% 0, 100% 100%, 0 100%);
+    color: white;
+    background-image: url("../img/banner/banner1.png");
+    background-position: 50% 50%;
+}
+
+.breadcrumb h2 {
+    font-weight: bold;
+}
+
+.breadcrumb-text a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Custom CSS for Bootstrap */
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 8%;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.text-orange {
+    color: orange;
+}
+
+.btn-orange {
+    background-color: orange;
+    color: white;
+}
+
+.btn-orange-outline:hover {
+    background-color: orange;
+    color: white;
+}
+
+.btn-orange-outline {
+    border: solid 1px orange;
+}
+
+.btn-gray-outline:hover {
+    background-color: #4c4742;
+    color: white;
+}
+
+.btn-gray-outline {
+    border: solid 1px gray;
+    color: rgb(84, 82, 82);
+}
+
+.chinese-text {
+    line-height: 1.65em;
+}
+
+.font-weight-bold {
+    font-weight: bold;
+}
+
+@media(min-width: 992px) {
+
+    .w-lg-75 {
+        width: 75% !important;
+    }
+}
+
+/* MediaQuery */
+
+@media (max-width: 575px) {
+
+    .breadcrumb {
+        height: 150px;
+    }
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}

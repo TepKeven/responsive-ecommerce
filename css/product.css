@@ -1,0 +1,14 @@
+.product-content {
+    width: 90%;
+    text-align: justify;
+}
+
+.product-content h5 {
+    font-weight: bold;
+}
+
+
+.product-quantity-input {
+    width: 55px;
+    height: 45px;
+}

@@ -1,0 +1,81 @@
+.form-container {
+    border: solid 1px gray;
+    padding: 30px 50px;
+}
+
+.form-container-checkout {
+    border: solid 1px gray;
+    padding: 30px 50px;
+}
+
+#table-checkout th {
+    font-size: 18px;
+    text-align: center;
+}
+
+#table-checkout {
+    border-collapse: collapse;
+}
+
+#table-checkout tr {
+    height: 45px;
+}
+
+#table-checkout tr:last-child {
+    height: 55px;
+}
+
+#table-checkout tr:last-child td {
+    border: solid 1px gray;
+}
+
+#table-checkout td {
+    text-align: center;
+}
+
+.form-control-checkout input:not([type="checkbox"]):not([type="radio"]) {
+    font-size: 18px;
+    height: 40px;
+    border-radius: 5px;
+    width: 100%;
+    border: solid 1px rgb(181, 178, 178);
+    margin-top: 10px;
+}
+
+.form-control-checkout textarea {
+    height: 150px;
+    border-radius: 5px;
+    width: 100%;
+    border: solid 1px rgb(181, 178, 178);
+    margin-top: 10px;
+}
+
+.form-container h3,
+.form-container h4,
+.form-container-checkout h3,
+.form-container-checkout h4 {
+    font-weight: bold;
+}
+
+@media print {
+
+    .form-container-checkout h3,
+    .form-container-checkout h4 {
+        display: none;
+    }
+
+    .navbar-container {
+        display: none;
+    }
+
+    .breadcrumb {
+        display: none;
+    }
+}
+
+@media screen and (max-width:991px) {
+
+    .form-container-checkout {
+        padding: 30px 20px;
+    }
+}

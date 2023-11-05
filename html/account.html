@@ -1,0 +1,90 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/account.css" />
+    <link rel="stylesheet" href="../css/base.css" />
+    <script src="https://kit.fontawesome.com/c2f24180cc.js" crossorigin="anonymous"></script>
+    <script src="../js/account.js"></script>
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav class="navbar-container">
+        <ul type="none" class="navbar-top">
+            <li><a href="./bestseller.html">Best Sellers</a></li>
+            <li><a href="./recent.html">Recent</a></li>
+            <li><a href="./featured.html">Featured</a></li>
+            <li><a href="./about.html">About Us</a></li>
+            <li><a href="./contact.html">Contact Us</a></li>
+        </ul>
+        <div class="breadcrumb d-flex flex-column align-items-center justify-content-center">
+            <h2>Account</h2>
+            <div class="breadcrumb-text">
+                <a href="./home.html">Home</a>
+                &nbsp; >
+                <a href="./account.html">Account</a>
+            </div>
+        </div>
+    </nav>
+    <!--Content-->
+    <div class="profile-section my-5 d-flex flex-column align-items-center">
+        <div class="inner-profile-section col-lg-5 col-11 d-flex flex-column align-items-center">
+            <label for="select-profile-photo">
+                <div class="profile-box">
+                    <img src="../img/keven.jpg" width="150" height="150" class="profile-photo" id="profile-photo" />
+                </div>
+                <h5 class="text-center fw-bold mt-3">Tep Keven</h5>
+            </label>
+            <div class="profile-content">
+                <h6>Date of Birth: 25 July 2002</h6>
+                <h6>Address: Phnom Penh, Cambodia</h6>
+                <h6>Phone Number: +855-12-330-245</h6>
+                <h6>Email: teapkevin@gmail.com</h6>
+                <div class="logout-container">
+                    <a href="./login.html"><button class="btn btn-orange">Sign Out</button></a>
+                </div>
+            </div>
+        </div>
+        <div class="inner-profile-section col-lg-5 col-11 d-flex flex-column mt-4 py-4">
+            <h5 class="fw-bold">Other Information</h5>
+            <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+                natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque
+                eu, pretium quis, sem. natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque
+                eu, pretium quis, sem.
+            </p>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <div class="footer-section d-flex justify-content-center mt-5">
+        <div class="col-lg-6 col-11 text-center pt-5 pb-2">
+            <h2 class="fw-bold">Keven Shop</h2>
+            <div class="section-subscribe d-flex align-items-center justify-content-between">
+                <input type="email" name="txt_subscribe" placeholder="Your Email" />
+                <a href="#">SUBSCRIBE</a>
+            </div>
+            <ul class="footer-menu d-flex justify-content-between px-4 mt-4">
+                <li><a href="./blog.html">Blog</a></li>
+                <li><a href="./category.html">Category</a></li>
+                <li><a href="./checkout.html">Checkout</a></li>
+                <li><a href="./login.html">Login</a></li>
+                <li><a href="./sitemap.html">Sitemap</a></li>
+            </ul>
+            <p class="my-5">Help Line Number : +855 12330245</p>
+            <p>© 2022 All Rights Reserved. Design by Tep Keven</p>
+        </div>
+    </div>
+
+    <input type="file" id="select-profile-photo" name="select-profile-photo" class="d-none" />
+</body>
+</html>
